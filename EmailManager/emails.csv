@@ -1,0 +1,20 @@
+ID,Sender,Subject,Recipient,Content,Priority,Label,Unread
+1,A.Tutor@grandwich.ac.uk,Hello,B.Tutor@grandwich.ac.uk,How is the course going?,2,,False
+2,B.Tutor@grandwich.ac.uk,Re: Hello,A.Tutor@grandwich.ac.uk,"> How is the course going?
+
+Brilliant, thanks.",2,Done,False
+3,A.Friend@kmail.com,Coffee,A.Tutor@grandwich.ac.uk,Fancy meeting for coffee?,5,,False
+4,A.Tutor@grandwich.ac.uk,Exam,C.Tutor@grandwich.ac.uk,I have nearly finished writing the exam.,4,,False
+5,A.Student@grandwich.ac.uk,Timetable,A.Tutor@grandwich.ac.uk,Help! My timetable is rubbish.,1,Done,False
+7,Marketing@spam.com,Free Pizza,You@grandwich.ac.uk,Click here for pizza!,1,,False
+8,N.Frost@grandwich.ac.uk,Coursework Deadline,All.Students@grandwich.ac.uk,URGENT: Just a reminder that the Python coursework is due this Friday at 23:30. No extensions!,5,Done,False
+9,B.Student@grandwich.ac.uk,Lost ID Card,Security@grandwich.ac.uk,"Hi, I think I left my ID card in the computer lab (QA035). Has anyone handed it in?",1,Call mentor John,False
+10,IT.Support@grandwich.ac.uk,System Maintenance,All.Staff@grandwich.ac.uk,Moodle will be offline for maintenance this Saturday from 00:00 to 04:00.,5,,False
+12,Marketing@spam-mail.com,Free Pizza!,A.Student@grandwich.ac.uk,Click this link to win free pizza for a year!!! Don't miss out.,2,Finish,False
+13,Mom@family.com,Lunch on Sunday?,A.Student@grandwich.ac.uk,Are you coming home this weekend? I'm making your favorite lasagna.,2,,False
+14,C.Tutor@grandwich.ac.uk,Staff Meeting,A.Tutor@grandwich.ac.uk,The department meeting has been moved to Room 304. See you there at 2pm.,2,,False
+15,A.Student@grandwich.ac.uk,Re: Exam,A.Tutor@grandwich.ac.uk,Could you please clarify what topics will be covered in Section B? Thanks.,3,,True
+16,pmhuy0911@gmail.com,Hi,lionelmessi@gmail.com,"Hello Messi
+",0,Contact in instagram,False
+17,Huy@gmail.com,Hi,MrPhuc@icloud.com,"HEllo
+",0,,True
