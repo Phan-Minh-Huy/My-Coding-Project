@@ -29,10 +29,10 @@
 
 ## 🧠 About Me
 
-- 🎯 I’m focusing on **UI/UX Design & Web Development**
-- 💻 Currently working with **HTML, CSS, JavaScript, PHP**
-- 🎨 Designing with **Figma & Photoshop**
-- 🚀 Goal: Become a **professional UI/UX Designer**
+- 🎯 I’m focusing on **Front-end & Back-end Development**
+- 💻 Currently working with **HTML, CSS, JavaScript, PHP, Python, Java**
+- 🎨 Designing with **Figma, Photoshop, Canva**
+- 🚀 Goal: Become a **Full-stack Developer**
 
 ---
 
