@@ -39,7 +39,7 @@
 ## 🛠️ Languages & Tools
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,php,python,mysql,java,figma,ps,canva" />
+  <img src="https://skillicons.dev/icons?i=html,css,js,php,python,mysql,java,figma,ps" />
 </p>
 
 ---
