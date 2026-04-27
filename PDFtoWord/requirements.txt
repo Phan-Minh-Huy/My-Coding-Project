@@ -1,0 +1,4 @@
+Flask==3.0.3
+pdf2docx==0.5.8
+Werkzeug==3.0.3
+gunicorn==21.2.0
