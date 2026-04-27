@@ -1,0 +1,320 @@
+/* RESET */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  background: #111827;
+  padding: 25px;
+  border-radius: 12px;
+  margin-top: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+}
+
+/* BODY */
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #0f172a;
+  color: #e5e7eb;
+  line-height: 1.6;
+}
+
+/* CONTAINER */
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* NAVBAR */
+
+header {
+  background: linear-gradient(120deg, #1e3a8a, #2563eb, #38bdf8);
+  padding: 25px 0;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+}
+
+header h1 {
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav {
+  margin-top: 15px;
+  text-align: center;
+}
+
+nav a {
+  color: #cbd5f5;
+  margin: 0 15px;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: #60a5fa;
+}
+
+/* CARD REVIEW */
+
+blockquote {
+  background: #1f2937;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  transition: 0.3s;
+  border-left: 4px solid #3b82f6;
+}
+
+blockquote:hover {
+  transform: translateY(-5px);
+  background: #111827;
+}
+
+/* REVIEW TEXT */
+
+blockquote p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* INFO */
+
+small {
+  color: #94a3b8;
+}
+
+/* BUTTONS */
+
+button,
+input[type="submit"] {
+  background: linear-gradient(135deg, #6366f1, #22c55e);
+  border: none;
+  padding: 8px 14px;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.3s;
+  margin-top: 20px;
+}
+
+button:hover,
+input[type="submit"]:hover {
+  opacity: 0.8;
+}
+
+/* EDIT LINK */
+
+a {
+  color: #60a5fa;
+  font-weight: 500;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.delete {
+  color: #f87171;
+}
+
+/* FORMS */
+
+form {
+  margin-top: 15px;
+}
+
+textarea,
+select,
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 8px;
+  margin-bottom: 15px;
+
+  border-radius: 8px;
+  border: none;
+
+  background: #1f2937;
+  color: white;
+}
+
+textarea:focus,
+select:focus,
+input:focus {
+  outline: 2px solid #3b82f6;
+}
+
+/* INPUT FILE */
+
+input[type="file"] {
+  margin-top: 10px;
+}
+
+/* TITLE */
+
+h2 {
+  margin-bottom: 20px;
+}
+
+/* HOME */
+
+ul {
+  margin-top: 15px;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+/* FOOTER */
+
+footer {
+  margin-top: 40px;
+
+  padding: 20px;
+
+  text-align: center;
+
+  color: #94a3b8;
+
+  border-top: 1px solid #334155;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 768px) {
+  nav a {
+    display: block;
+
+    margin: 10px 0;
+  }
+
+  blockquote {
+    padding: 15px;
+  }
+}
+/* GENRE CHECKBOXES */
+.genre-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.genre-group label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background: #1f2937;
+  padding: 6px 12px;
+  border-radius: 20px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.genre-group label:hover {
+  background: #374151;
+}
+
+.review-poster {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+/* 
+  Review List Interface ( for Admin )
+*/
+.review-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background: #1f2937; /* Dark Background */
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+
+  /* Border */
+  border-left: 5px solid #f59e0b;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+.review-poster {
+  width: 90px;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.review-content {
+  flex: 1;
+}
+
+.review-text {
+  font-size: 16px;
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+
+.review-meta {
+  color: #9ca3af;
+  font-size: 13px;
+  display: block;
+}
+
+.review-actions {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.btn-edit,
+.btn-delete {
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  border: none;
+}
+
+.btn-edit {
+  background: #3b82f6;
+}
+.btn-edit:hover {
+  background: #2563eb;
+}
+
+form.delete-form {
+  background: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
+  box-shadow: none;
+}
+
+form.delete-form input[type="submit"].btn-delete {
+  margin: 0;
+  background: #ef4444;
+}
+
+form.delete-form input[type="submit"].btn-delete:hover {
+  background: #dc2828;
+}
